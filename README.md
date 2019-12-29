@@ -1,7 +1,9 @@
-# Hyde
+# Order
 
-Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
-It pairs a prominent sidebar with uncomplicated content.
+**WIP**
+
+Order is a minimalistic two-column [hugo](https://gohugo.io) theme based on the Hugo port of the [Jekyll](http://jekyllrb.com) theme, Hyde. Quite a history.
+It pairs a stylish but playful sidebar with straightforward content.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
@@ -202,15 +204,19 @@ googleAnalytics = "Your tracking code"
 googleAnalytics: Your tracking code
 ```
 
-## Author
+## Original Author
 **Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-## Ported By
+## Hyde Port
 **Steve Francia**
 - <https://github.com/spf13>
 - <https://twitter.com/spf13>
+
+## Order
+**Dylan Culfogienis**
+- <https://github.com/Mantissa-23>
 
 ## License
 

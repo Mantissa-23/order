@@ -1,0 +1,21 @@
+.navlink {
+  padding-left: 1rem;
+  width: 100%;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, #282828 50%, red 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+  /* background-color: red; */
+  background-position: 0.25rem;
+}
+
+.navlink:hover {
+  background-position: -100% 0;
+}
+
+.navlink-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

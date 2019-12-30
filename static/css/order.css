@@ -29,12 +29,16 @@
 
 .sidebar {
   width: auto;
+  padding: 2rem 0;
+  border-left: 0.25rem;
+  border-left-style: solid;
+  border-color: #1d2021;
 }
 @media (min-width: 48em) {
   .sidebar {
     width: 17rem;
-    padding: 0 0;
     background-color: transparent;
+    padding: 0 0;
   }
   .sidebar p {
     font-size: 0.7rem;
@@ -45,6 +49,9 @@
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     transition: opacity 0.5s;
+  }
+  .sidebar nav {
+    margin-left: -0.25rem;
   }
   /* .sidebar .title { */
   /*   display: block; */

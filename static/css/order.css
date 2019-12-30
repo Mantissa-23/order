@@ -106,7 +106,7 @@
 
 @media (min-width: 48em) {
   .content {
-    max-width: 34rem;
+    max-width: 38rem;
     margin: auto;
   }
 }
@@ -127,4 +127,20 @@ a {
 .post-title,
 .post-title a {
   color: #bbb;
+}
+
+/* ol, ul, dl { */
+/*   margin-bottom: 0; */
+/* } */
+
+li ol, li ul, li dl {
+  margin-bottom: 0;
+}
+
+img {
+  margin: 0 auto 1rem auto;
+}
+
+footer {
+  font-size: 0.75rem;
 }

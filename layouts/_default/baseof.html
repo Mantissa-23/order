@@ -3,6 +3,7 @@
   {{ partial "sidebar.html" . }}
     <main class="content container">
     {{ block "main" . -}}{{- end }}
+  {{partial "footer.html" . }}
     </main>
 
     {{ template "_internal/google_analytics_async.html" . }}

@@ -1,7 +1,8 @@
 <aside class="sidebar">
   <div class="container nopad">
-    <div class="sidebar-about">
-      <a href="{{ .Site.BaseURL }}">{{partial "title.html"}}</a>
+    <div class="sidebar-about title">
+      <a class="fade" href="{{ .Site.BaseURL }}">{{partial "title.html"}}</a>
+      <!-- <p class="fade">by {{ .Site.Params.author }}</p> -->
       <!-- <p class="lead"> -->
       <!-- {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}} -->
       <!-- </p> -->
@@ -9,15 +10,16 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li class="navlink" style="--bar-color: red;"><a class="navlink-link" href="{{ .Site.BaseURL }}">Home</a> </li>
+        <li class="navlink" style="--bar-color: #c70039;"><a class="navlink-link fade" href="{{ .Site.BaseURL }}">Home</a> </li>
         {{ range .Site.Menus.main -}}
-        <li class="navlink" style="--bar-color: blue;"><a class="navlink-link" href="{{.URL}}"> {{ .Name }} </a></li>
+        <li class="navlink" style="--bar-color: {{.Pre}};"><a class="navlink-link fade" href="{{.URL}}"> {{ .Name }} </a></li>
         {{- end }}
       </ul>
     </nav>
 
     <div class="sidebar-footer">
-      <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+      <!-- <p class="fade">&copy; Copyright {{ now.Format "2006"}} {{ .Site.Params.copyright }} </p> -->
+      <p class="fade">{{ .Site.Params.epitaph }}</p>
     </div>
   </div>
 </aside>

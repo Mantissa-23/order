@@ -1,3 +1,7 @@
+html {
+  scrollbar-color: #3c3836 #32302f;
+}
+
 .navlink {
   width: 100%;
   background-size: 200% 100%;
@@ -106,15 +110,15 @@
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 44rem;
     margin: auto;
   }
 }
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (min-width: 48em) and (max-width: 100em) {
   .content {
     /* max-width: 38rem; */
-    margin-left: 20rem;
+    margin-left: 17rem;
   }
 }
 
@@ -137,10 +141,50 @@ li ol, li ul, li dl {
   margin-bottom: 0;
 }
 
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img {
   margin: 0 auto 1rem auto;
 }
 
 footer {
   font-size: 0.75rem;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #b3555e;
+  background-color: #32302f;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #32302f;
+}
+
+pre, code {
+  overflow-x: scroll;
+  scrollbar-color: #3c3836 #32302f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gloria Hallelujah", serif;
+}
+
+button {
+  border-width: 2px solid #fff;
+  border-style: solid;
+  border-radius: 0;
+  padding: 0.25rem 1rem;
+  background-color: transparent;
+  color: #fff;
+  margin: 0.3rem 0.25rem;
+}
+
+strong {
+  color: #fff;
 }

@@ -175,6 +175,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Gloria Hallelujah", serif;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 button {
   border-width: 2px solid #fff;
   border-style: solid;
